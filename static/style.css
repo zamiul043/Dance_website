@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: 'Lacquer', cursive;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+
+}
+
+#logo img{
+height: 25px;
+border: 3px;
+border-radius: 168px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    /* margin: 5px 9px; */
+}
+
+.card-img img{
+    height: inherit;
+}
+#navbar{
+    background-color: black;
+    padding: 13px 14px;
+}
+
+#navbar ul{
+   display: flex;
+   flex-direction: row;
+   /* justify-content: center; */
+   align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 30px 20px;
+}
+
+#navbar li a:hover{
+    color: yellow;
+}
+
+#introSection{
+    padding-top: 381px;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: center/cover no-repeat url("/static/bg.jpg");
+     height: 650px;
+     background-color: red;
+    font-size: 30px;
+     font-family: 'Lacquer', cursive;
+}
+
+#introSection div.small{
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+#introSection div.large{
+    color: orange;
+    font-weight: 600;
+}
+
+#sponsers{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+
+#MissionSection{
+   height: 310px;
+   background-color: white;
+   width: 67%;
+   margin: auto;
+}
+
+#MissionSection h2{
+    color: black;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 25px;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 16px;
+    height: 209px;
+}
+
+.card h3{
+    text-align: center;
+    margin: 12px;
+}
+
+
+#sponsersSection{
+    height: 300px;
+    text-align: center;
+    background-color: grey;
+    padding-top: 23px;
+    font-size: 30px;
+}
+#sponsersSection h2{
+    color: white;
+    margin-top: 48px;
+}
+
+#footer{
+    height: 100px;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
